@@ -1,0 +1,27 @@
+{
+    "name": "Custom Microsoft Edge",
+    "short_name": "Custom Edge",
+    "version": "0.0.1",
+    "version_name": "Alpha",
+    "minimum_chrome_version": "111.0.1661.15",
+    "offline_enabled": true,
+    "manifest_version": 3,
+    "description": "🌟 The extension is a tool that allows you to further customize your browsing experience in Microsoft Edge, one of the most popular web browsers on the market. With this extension, you will be able to have greater control over the configuration and appearance of your browser. ✨ Among the customization options that you can find in this extension, there are various search tools 🔍 and optimization to improve the efficiency and speed of your browser. In addition, you will be able to access advanced configuration options, such as plugin management 🧩, privacy preferences 🔒, cookie management 🍪, and many others. It should be noted that this extension has been specifically designed to work with Microsoft Edge 🌎, so it is not compatible with other web browsers. Also keep in mind that the extension can be a bit heavy ⚠️ and slow down your browser if your computer doesn't have enough processing power 💻. However, if you have a powerful computer 💪, this extension can be a very useful tool to customize and optimize your browsing experience in Microsoft Edge. 🚀",
+    "icons": {
+      "180": "icons/logo180x180.png"
+    },
+    "action": {
+        "default_popup": "Popup/popup.html"
+      },
+      "permissions": [
+        "activeTab",
+        "storage",
+        "tabs",
+        "webNavigation"
+      ],
+      "platforms": [
+        "win",
+        "mac",
+        "linux"
+     ]
+}
