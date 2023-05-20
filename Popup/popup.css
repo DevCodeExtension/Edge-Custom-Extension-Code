@@ -1,0 +1,1556 @@
+body {
+    background: #0c192c;
+    font-family: monospace, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 500px;
+    height: 300px;
+  }
+
+  @font-face {
+    font-family: 'Press Start 2P';
+    src: url('../Fonts/PressStart2P-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }  
+
+  #botoninfo {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 5%;
+    background-image: url("../Icons/IconoDeInfo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    width: 10%;
+    height: 15.5%;
+  }
+
+  #botoninfo span {
+    position: absolute;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    top: 103.5%;
+    left: -14.5%;
+  }
+
+  #botonconfig {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 25%;
+    background-image: url("../Icons/IconoDeConfiguracion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    width: 10%;
+    height: 15.5%;
+  }
+
+  #botonconfig span {
+    position: absolute;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    top: 103.5%;
+    left: 5%;
+  }
+
+  .menuLateral {
+    position: absolute;
+    background: #dfdfdf;
+    top: 0;
+    left: 0;
+    width: 18.5%;
+    height: 100%;
+  }
+
+  #tituloconfig {
+    position: absolute;
+    margin-top: -1%;
+    font-size: 155%;
+    color: rgb(0, 0, 0);
+
+ }
+
+ #opciondelenguaje {
+  position: absolute;
+  color: rgb(31, 31, 31);
+  margin-left: 0.3em;
+  margin-top: 3.5em;
+ }
+
+ #option2 {
+  position: absolute;
+  background: transparent;
+  color: rgb(31, 31, 31);
+  margin-left: -0.5em;
+  margin-top: 5.3em;
+ }
+
+ #botoncerrarconfig {
+  position: absolute;
+  background-image: url("../Icons/IconoDeCerrar.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -1.5%;
+  margin-left: 90.3%;
+  width: 6%;
+  height: 10%;
+  border: none;
+  border-radius: 50px;
+ }
+
+
+  #barradecorativa {
+   position: absolute;
+   top: 0%;
+   right: 0%;
+   width: 95%;
+   height: 0%;
+   background-color: rgba(135, 135, 135, 0.5);
+   padding: 13px;
+   border-radius: 5px;
+  }
+
+  #textodecotacion {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: -2%;
+    font-size: 120%;
+  }
+
+  #rectangulodedecoracion {
+    position: absolute;
+    background-color: rgba(221, 221, 221, 0.3);
+    width: 15%;
+    height: 3%;
+    bottom: 3%;
+    left: 43%;
+    border-radius: 10px;
+  }
+
+  #motivacionaltext {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.001);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0);
+    margin-top: -18.5%;
+    margin-left: 33.5%;
+    border-radius: 50px;
+  }
+
+  #systemExtencionBox {
+    position: absolute;
+    background-image: url("../Images/GalaxiasEnElEspacioFondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 324px;
+    width: 523px;
+    margin-top: -2.1%;
+    margin-left: -2.1%;
+    z-index: 999;
+    display: none;
+  }
+
+  #menuLateralDeLaExtencion {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    width: 125px;
+    height: 320px;
+    margin-top: -1%;
+    margin-left: -0.5%;
+    border: 3px solid rgb(0, 0, 0);
+  }
+
+  #titulodelasopcionesextencion {
+    position: absolute;
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 5.8%;
+    margin-left: 10%;   
+  }
+
+  #secciondelaExtencion1 {
+    position: absolute;
+    font-size: 15px;
+    color: #cbcbcb;
+    margin-top: 40%;
+    margin-left: 5%;   
+  }
+
+  #titulodeextencionBox {
+    position: absolute;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 3%;
+    margin-left: 55%;
+  }
+
+  #noticasBox {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0);
+    width: 230px;
+    height: 260px;
+    margin-top: 8.5%;
+    margin-left: 37.3%;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+
+  #noticaBox {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 200px;
+    height: 200px;
+    margin-top: 5%;
+    margin-left: 5.7%;
+    border: 3px solid rgba(150, 150, 150, 0.35);
+    border-radius: 10px;
+  }
+
+  #subtituloNoticias {
+    position: absolute;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 3%;
+    margin-left: 5%; 
+  }
+
+  #infodelaNoticia {
+    position: absolute;
+    font-size: 10px;
+    color: #ffffff;
+    margin-top: 30%;
+    margin-left: 2%; 
+  }
+
+  #fechaDeLaNoticia {
+    position: absolute;
+    font-size: 10px;
+    color: #ffffff;
+    margin-top: 80%;
+    margin-left: 58%; 
+  }
+
+  #secciondelaExtencion2 {
+    position: absolute;
+    font-size: 14px;
+    background: transparent;
+    color: #cbcbcb;
+    margin-top: 60%;
+    margin-left: -3%;   
+  }
+
+  #appBox {
+    position: absolute;
+    background-image: url("../Images/GalaxiasEnElEspacioFondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 324px;
+    width: 523px;
+    margin-top: -2.1%;
+    margin-left: -1%;
+    z-index: 999;
+  }
+
+  #tituloApp {
+    position: absolute;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 3%;
+    margin-left: 48%;
+  }
+
+  #appMicrosoftEdge {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 5%;
+    background-image: url("../Icons/SubLogo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    width: 4em;
+    height: 4em;
+  }
+
+  #appMicrosoftEdge span {
+    position: absolute;
+    font-size: 8.4px;
+    color: rgb(255, 255, 255);
+    top: 103.5%;
+    left: -7%;
+  }
+
+  #appCustomEdge {    
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 21%;
+    background-image: url("../Icons/IconoDeDetalles.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+    width: 4em;
+    height: 4em;
+  }
+
+  #appCustomEdge span {
+    position: absolute;
+    font-size: 10px;
+    color: rgb(255, 255, 255);
+    top: 103.5%;
+    left: -7%;
+  }
+
+  #DetailsBox {
+    position: absolute;
+    background: url("https://img.freepik.com/premium-vector/seamless-night-sky-stars-pattern_102902-2359.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 275px;
+    width: 323px;
+    margin-top: 3%;
+    margin-left: 19.5%;
+    border-radius: 20px;
+    z-index: 999;
+    display: none;
+  }
+
+  .detailTituloBox {
+    position: absolute;
+    font-size: 20px;
+    color: #c9d5e0;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 38.6%;
+  }
+
+  .miniDetailBox {   
+    position: absolute;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 170px;
+    width: 215px;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    overflow-x: auto;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 17.3%;
+  }
+
+  .miniDetailBox::-webkit-scrollbar {
+    background: transparent;
+    width: 0.1px;
+  }
+
+  .subTituloMiniBox {
+    position: absolute;
+    font-size: 18px;
+    color: #a0d0ff;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 23%;
+  }
+
+  .infoDetail {
+    position: absolute;
+    text-align: justify;
+    color: rgb(213, 234, 255);
+    padding: 10px;
+    margin-left: 1%;
+    margin-top: 2em;
+  }
+
+  .updateDatatext {
+    position: absolute;
+    font-size: 20px;
+    background: #2196f3;
+    border-radius: 10px;
+    color: #7dc0ff;
+    font-family: monospace;
+    text-align: center;
+    margin-top: 70%;
+    margin-left: 45.3%;
+  }
+
+  #closeDetailBox {
+    position: absolute;
+    background-image: url("../Icons/IconoDeCerrar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 5px;
+    height: 8px;
+    border-radius: 50px;
+    margin-top: 1%;
+    margin-left: 94.3%;
+  }
+
+  #cerrarSystemBoxExtencion {
+    position: absolute;
+    background-image: url("../Icons/IconoDeCerrar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 5px;
+    height: 8px;
+    border-radius: 50px;
+    margin-top: 1%;
+    margin-left: 94.3%;
+  }
+
+  #abrirReadme {
+    position: absolute;
+    background: url("../Icons/ReadmeIcono.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    margin-top: 55%;
+    margin-left: 93%;  
+    border: none;
+  }
+
+  #readmeBox {
+    position: absolute;
+    background: linear-gradient(#070d10, #152b4a);
+    height: 300px;
+    width: 350px;
+    margin-top: 0%;
+    margin-left: 14%;
+    border-radius: 15px;
+    overflow-x: auto;
+    z-index: 999;
+    display: none;
+  }
+
+  #readmeBox::-webkit-scrollbar {
+    background: transparent;
+  }
+
+  .readmeTituloBox {
+    position: absolute;
+    font-size: 20px;
+    color: #c9d5e0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-left: 36%;
+    margin-top: 1%;
+  }
+
+  .infoReadme {
+    position: absolute;
+    font-size: 15px;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    margin-left: 1%;
+    margin-top: 15%;
+    padding: 10px;
+  }
+
+  .licenceTituloBox {
+    position: absolute;
+    font-size: 18px;
+    color: #ff9393;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-left: 36%;
+    margin-top: 35.5em;
+  }
+ 
+  .infoLicence {
+    position: absolute;
+    font-size: 15px;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    margin-left: 1%;
+    margin-top: 44.3em;
+    padding: 10px;
+  }
+  
+  .contributingTitle {
+    position: absolute;
+    font-size: 18px;
+    color: #eaff61;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 78.5em;
+  }
+
+  .infoContributing {
+    position: absolute;
+    font-size: 15px;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    margin-left: 1%;
+    margin-top: 96.3em;
+    padding: 10px;
+  }
+  
+  #closeReadmeBox {
+    position: absolute;
+    background-image: url("../Icons/IconoDeCerrar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 5px;
+    height: 8px;
+    border-radius: 50px;
+    margin-top: 1%;
+    margin-left: 94%;
+  }
+
+  #calculatorBox {
+    position: absolute;
+    background: #eeeeee;
+    width: 515.8px;
+    height: 317px;
+    margin-top: -1.63%;
+    margin-left: -1.6%;
+    z-index: 999;
+    display: none;
+  }
+
+  #gamesBox {
+    position: absolute;
+    background: #cbcbcb6b;
+    width: 260px;
+    height: 300px;
+    display: none;
+    margin-top: -0.3%;
+    margin-left: 23%;
+    z-index: 999;
+    border-radius: 10px;
+  }
+
+  #cerrarcarpetadejuegos{
+    position: absolute;
+    background-image: url("../Icons/IconoDeCerrar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 9.3%;
+    height: 8%;
+    border-radius: 50px;
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  #infoBox {
+  display: none;
+  position: absolute;
+  left: 20%;
+  width: 500px;
+  height: 300px;
+  margin-top: -2%;
+  margin-left: -20%;
+  background: rgb(104, 255, 120);
+  border: 1px solid black;
+  padding: 10px;
+  z-index: 999;
+ }
+
+ #infoBox.visible {
+  display: block;
+  }
+
+  #configBox {
+  display: none;
+  position: absolute;
+  left: 20%;
+  width: 500px;
+  height: 300px;
+  top: 3%;
+  left: 20%;
+  margin-top: -2%;
+  margin-left: -20%;
+  background: rgb(234, 234, 234);
+  border: 1px solid black;
+  padding: 10px;
+  z-index: 999;
+  }
+    
+  #botoncerrarinfo {
+    position: absolute;
+    background-image: url("../Icons/IconoDeCerrar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 20px; /* ajusta el ancho */
+    height: 20px; /* ajusta la altura */;
+    border-radius: 50px;
+    margin-top: -1%;
+    margin-left: 93%;
+    text-align: center;
+    z-index: 3;
+  }
+
+  #botoncalculadora {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 45.5%;
+    background-image: url("../Icons/IconoDeCalculadora.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    width: 10%;
+    height: 15.5%;
+  }
+
+  #botoncalculadora span {
+    position: absolute;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    top: 103.5%;
+    left: -6.5%;
+  }
+
+  #cerrarcalculatorBox {
+    position: absolute;
+    background-image: url("../Icons/IconoDeCerrar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 10px;
+    height: 8px;
+    border-radius: 50px;
+    margin-top: 1%;
+    margin-left: 1%;
+  }
+
+  .calculator {
+    position: absolute;
+    width: 50%;
+    max-width: 230px;
+    margin-top: 1%;
+    margin-left: 10%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .calculator-screen {
+    width: 100%;
+    font-size: 2em;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .calculator-keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  button {
+    background-color: #eee;
+    border: none;
+    border-radius: 5px;
+    font-size: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.1s ease;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  .operator {
+    background-color: #f5913e;
+    color: #fff;
+  }
+  
+  .all-clear {
+    background-color: #f05050;
+    color: #fff;
+  }
+  
+  .equal-sign {
+    background-color: #3e5c5f;
+    color: #fff;
+  }
+  
+  .decimal {
+    font-size: 2em;
+    background-color: #f0ad4e;
+    color: #fff;
+  } 
+  
+  #botonconoceelmundo {
+    position: absolute;
+    background-image: url("../Icons/IconoDeTraductor.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 15.5%;
+    margin-top: 10%;
+    margin-left: 65%;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #botonconoceelmundo span {
+    position: absolute;
+    font-size: 10px;
+    top: 103.5%;
+    left: -2.5%;
+    color: white;
+  }
+
+  #conocetierraBox {
+    position: absolute;
+    background: green;
+    width: 515.8px;
+    height: 317px;
+    margin-top: -1.63%;
+    margin-left: -1.6%;
+    z-index: 999;
+    display: none;
+  }
+
+  #titulodelconocelatierra {
+    position: absolute;
+    color: rgb(0, 251, 255);
+    font-size: 20px;
+    margin-top: 1%;
+    margin-left: 0.5%;
+    -webkit-text-stroke: 0.8px white;
+  }
+
+  #informaciondelatierra {
+    position: absolute;
+    font-size: 8.35px;
+    color: rgb(0, 255, 130);
+    margin-top: 7%;
+    margin-left: 0.5%;
+    -webkit-text-stroke: 0.3px rgb(255, 255, 255);
+  }
+
+  #cerrarinfotierra {
+    position: absolute;
+    background-image: url("../Icons/IconoDeCerrar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 10px;
+    height: 8px;
+    border-radius: 50px;
+    margin-top: 0.5%;
+    margin-left: 95.8%;
+  }
+
+  #botonwebdestruirpanel {
+    position: absolute;
+    background-image: url("../Icons/IconoDeWebDestroyerPanel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 15.5%;
+    margin-top: 10%;
+    margin-left: 83.6%;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #botonwebdestruirpanel span {
+    position: absolute;
+    font-size: 7.3px;
+    top: 103.5%;
+    left: 0%;
+    color: white;
+  }
+
+  #paneldestructionBox {
+    position: absolute;
+    background: gray;
+    width: 515.8px;
+    height: 317px;
+    margin-top: -1.63%;
+    margin-left: -1.6%;
+    z-index: 999;
+    display: none;
+  }
+
+  #titulodelpaneldestroyer {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    margin-top: 1%;
+    margin-left: 31.1%;
+    -webkit-text-stroke: 0.3px white;
+  }
+
+  #cerrarpaneldestrction {
+    position: absolute;
+    background-image: url("../Icons/IconoDeCerrar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 10px;
+    height: 8px;
+    border-radius: 50px;
+    margin-top: 0.5%;
+    margin-left: 95.3%;
+  }
+
+  #botondecuidaalplaneta {
+    position: absolute;
+    background-image: url("../Icons/IconoDeAyudaElPlaneta.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 16.3%;
+    margin-top: 30%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #botondecuidaalplaneta span {
+    position: absolute;
+    font-size: 9.8px;
+    top: 103.5%;
+    left: 2%;
+    color: white;
+  }
+
+  #planetsavetreeBox {
+    position: absolute;
+    background: linear-gradient(rgb(116, 255, 195), rgb(105, 255, 192));
+    width: 515.8px;
+    height: 317px;
+    margin-top: -1.63%;
+    margin-left: -1.6%;
+    z-index: 999;
+    display: none;
+  }
+
+  #tituloprincipaldelplansave {
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0.1%;
+    margin-left: 21.5%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.5px rgb(170, 170, 170);
+  }
+
+  #infodelsalvaellaneta {
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 3%;
+    margin-left: 0.5%;
+    text-align: center;
+    padding: 5%;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    -webkit-text-stroke: 0.5px rgb(170, 170, 170);
+  }
+
+  #cerraraplanetsaveBox {
+    position: absolute;
+    background-image: url("../Icons/IconoDeCerrar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    width: 10px;
+    height: 8px;
+    border-radius: 50px;
+    margin-top: 0.5%;
+    margin-left: 95.3%;
+  }
+
+  #botonfoldergame {
+    position: absolute;
+    background-image: url("../Icons/IconoDeCarpetaDeJuegos.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 16.3%;
+    margin-top: 30%;
+    margin-left: 25%;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #botonfoldergame span {
+    position: absolute;
+    top: 103.5%;
+    left: 8%;
+    color: white;
+  }
+
+  #subtituloseccion1 {
+    position: absolute;
+    font-family: 'Press Start 2P';
+    font-size: 15px;
+    margin-top: 3%;
+    margin-left: 33%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 0.5px rgb(170, 170, 170); /* agregar para navegadores basados en WebKit como Safari */
+  }
+
+  #abrirclicksistemasolargame {
+    position: absolute;
+    background-image: url("../Icons/IconoDelJuegoClcikAlSistemaSolar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 19.3%;
+    height: 16.3%;
+    margin-top: 15%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #abrirclicksistemasolargame span {
+    position: absolute;
+    top: 103.5%;
+    left: 3%;
+    color: white;
+    font-family: "Press Start P2", monospace;
+    font-size: 72.3%;      
+  }
+
+  #pantalladeljuegosistemsolarclick {
+    position: absolute;
+    background: black;
+    height: 101.5%;
+    width: 100%;
+    margin-top: -1.8%;
+    margin-left: -1.55%;
+    z-index: 999;
+    display: none;
+  }
+
+  #sunsolar {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(255, 200, 0);
+    border-radius: 50%;
+    margin-top: 23%;
+    margin-left: 41%;
+    border: 5px solid rgb(255, 150, 0);
+    transform-origin: center; /* establece el punto central como origen */
+    animation: pulse 1s infinite;
+    animation-play-state: paused; /* detiene la animación por defecto */
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.02);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  #tierraplanet {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(0, 190, 255);
+    border-radius: 50%;
+    margin-top: 27%;
+    margin-left: 46.3%;
+    border: 4px solid rgb(0, 150, 255);
+    border-radius: 50%;
+    animation: rotate-planet 10s linear infinite;
+  }
+  
+  
+  @keyframes rotate-planet {
+    from {
+      transform: rotate(0deg) translate(125px) rotate(0deg);
+    }
+    to {
+      transform: rotate(-360deg) translate(125px) rotate(-360deg);
+    }
+  }
+
+  #moon {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(150, 150, 150);
+    border-radius: 50%;
+    margin-top: 4%;
+    margin-left: 70%;
+    border: 3px solid rgb(100, 100, 100);
+    border-radius: 50%;
+    transform: translate(-50%, -50%) rotate(0deg) translate(45px) rotate(0deg);
+    animation: rotate-moon 12s linear infinite;
+  }
+
+  @keyframes rotate-moon {
+    from {
+      transform: translate(-50%, -50%) rotate(0deg) translate(45px) rotate(0deg);
+    }
+    to {
+      transform: translate(-50%, -50%) rotate(360deg) translate(45px) rotate(-360deg);
+    }
+  }
+
+  #cerrarclicksistemasolargame {
+    position: absolute;
+    background-image: url("../Icons/IconoDeCerrar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 5.1%;
+    height: 8%;
+    margin-top: 1%;
+    margin-left: 1%;  
+    border-radius: 10px;
+  }
+
+  #abrirjuegosnake {
+    position: absolute;
+    background-image: url("../Icons/IconoDelJuegoSnake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 19.3%;
+    height: 16.3%;
+    margin-top: 15%;
+    margin-left: 40%;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #abrirjuegosnake span {
+    position: absolute;
+    top: 103.5%;
+    left: 12%;
+    color: white;
+    font-family: "Press Start P2", monospace;
+    font-size: 100%;  
+  }
+
+  #pantalladeljuegosnake {
+    position: absolute;
+    width: 100%;
+    height: 105.8%;
+    margin-top: -1.65%;
+    margin-left: -1.5%;
+    background: greenyellow;
+    display: none;
+    z-index: 999;
+  }
+
+  #manzananormal {
+    position: absolute;
+    background-image: url("../Icons/ManzanaNormalIcono.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin-top: 50%;
+    margin-left: 47%;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #manzananormal:hover {
+    transform: scale(1.1);
+  }
+
+  #textoDelContador {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family: 'Press Start 2P';
+    font-size: 10px;
+    margin-top: 3%;
+    margin-left: 17%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  #cerrarjuegodelsanke {
+    position: absolute;
+    background-image: url("../Icons/IconoDeCerrar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 6px;
+    height: 10px;
+    margin-top: 1%;
+    margin-left: 1%;
+    border: none;
+    border-radius: 50px;
+  }
+
+  #abrirsimuladordetexto {
+    position: absolute;
+    background-image: url("../Icons/IconoDeSImuladorDeTexto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 19.3%;
+    height: 16.3%;
+    margin-top: 15%;
+    margin-left: 75%;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #abrirsimuladordetexto span {
+    position: absolute;
+    top: 103.5%;
+    left: -10%;
+    color: white;
+    font-family: "Press Start P2", monospace;
+    font-size: 100%;  
+  }
+
+  #textoBox {
+    position: absolute;
+    width: 100%;
+    height: 105.8%;
+    margin-top: -1.65%;
+    margin-left: -1.5%;
+    background: rgb(0, 0, 0);
+    z-index: 999;
+    display: none;
+  }
+
+  .escriturarectangulardetexto {
+    position: absolute;
+    width: 60%;
+    height: 10%;
+    margin-top: 30%;
+    margin-left: 20%;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+
+  #closetextBox {
+    position: absolute;
+    background-image: url("../Icons/IconoDeCerrar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 6px;
+    height: 10px;
+    margin-top: 1%;
+    margin-left: 1%;
+    border: none;
+    border-radius: 50px;
+  }
+
+  #textodedecoracion {
+    position: absolute;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    bottom: 8px;
+    left: 1px;
+  }
+
+  #descripcion {
+    position: absolute;
+    margin-top: 0%;
+    font-size: 15px;
+    color: gray;
+  }
+
+  #extensonautor {
+    position: absolute;
+    font-size: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(175, 175, 175);
+    opacity: 10px;
+    position: fixed;
+    right: 20px;
+    top: 85%;
+  }
+
+  #contador {
+    position: absolute;
+    font-family: 'Press Start 2P';
+    font-size: 280%;
+    margin-top: 28%;
+    margin-left: 14%;
+    display: inline-block;
+    width: 5px;
+    text-align: center;
+  }
+  
+  #clockboton {
+    position: absolute;
+    background-image: url("../Icons/IconoDeClock.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 16.3%;
+    margin-top: 30%;
+    margin-left: 45.5%;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #clockboton span {
+    position: absolute;
+    top: 103.5%;
+    left: 20%;
+    color: white;
+    font-size: 100%;  
+  }
+
+  #clockBox {
+    position: absolute;
+    width: 100%;
+    height: 105.8%;
+    margin-top: -5%;
+    margin-left: -1.5%;
+    background: #acbaca;
+    z-index: 999;
+    display: none;
+  }
+
+  .clock {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    margin-top: 8%;
+    margin-left: 30%;
+    background: #c9d5e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 30px 30px 30px -10px rgba(0,0,0,0.15),
+    inset 15px 15px 10px rgba(255,255,255,0.75),
+    -15px -15px 35px rgba(255,255,255,0.55),
+    inset -1px -1px 10px rgba(0,0,0,0.2);
+  }
+
+  .clock::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: #e91e63;
+    border-radius: 50%;
+    z-index: 990;
+    box-shadow: 0 0 0 1px #e91e63,
+    0 0 0 3px #fff,
+    0 0 5px 5px rgba(0,0,0,0.15);
+  }
+
+  .clock .number {
+    position: absolute;
+    inset: 28px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #152b4a;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px #152b4a,
+    inset 5px 5px 5px rgba(255,255,255,0.75),
+    -6px -6px 10px rgba(255,255,255,1);
+  }
+
+  .clock .number span {
+    position: absolute;
+    inset: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.25em;
+    transform: rotate(calc(90deg * var(--i)));
+  }
+
+  .clock .number span b {
+    font-weight: 600;
+    display: inline-block;
+    transform: rotate(calc(-90deg * var(--i)));
+  }
+
+  .clock .number::before {
+    content: "";
+    position: absolute;
+    inset: 28px;
+    background: linear-gradient(#2196f3, #e91e63);
+    border-radius: 50%;
+    animation: animate 2s linear infinite;
+  }
+
+  @keyframes animate {
+    0% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  .clock .number::after {
+    content: "";
+    position: absolute;
+    inset: 31px;
+    background: #152b4a;
+    border-radius: 50%;
+  }
+
+  .clock .number .circle {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+  }
+
+  .clock .number .circle i {
+    position: absolute;
+    width: 3px;
+    height: 50%;
+    background: #fff;
+    transform-origin: bottom;
+    transform: scaleY(0.55);
+  }
+
+  .clock .number .circle#hr i {
+    transform: scaleY(0.3);
+    width: 4px;
+  }
+
+  .clock .number .circle#mn i {
+    transform: scaleY(0.45);
+  }
+
+  .clock .number .circle#sc i {
+    transform: scaleY(0.55);
+    width: 2px;
+    background: #e91e63;
+    box-shadow: 0 30px 0 #e91e63;
+  }
+
+  #closeclockBox {
+    position: absolute;
+    background-image: url("../Icons/IconoDeCerrar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 6px;
+    height: 10px;
+    margin-top: 4%;
+    margin-left: 1%;
+    border: none;
+    border-radius: 50px;
+  }
+
+  #Toolsboton {
+    position: absolute;
+    background-image: url("../Icons/IconoTool.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 16%;
+    margin-top: 30%;
+    margin-left: 65%;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #Toolsboton span {
+    position: absolute;
+    top: 103.5%;
+    left: 20%;
+    color: white;
+    font-size: 100%;  
+  }
+
+  #toolsBox {
+    position: absolute;
+    width: 515.8px;
+    height: 317px;
+    margin-top: -1.63%;
+    margin-left: -1.6%;
+    background: linear-gradient(150deg, #f0ad4e, #e91e63);
+    color: #fff;
+    z-index: 999;
+    display: none;
+  }
+
+  #openemoji {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 5%;
+    background-image: url("../Icons/IconoEmoji.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    width: 10%;
+    height: 15.5%;
+  }
+
+  #openemoji span {
+    position: absolute;
+    top: 103.5%;
+    padding: 1px;
+    left: 17.5%;
+    color: white;
+    font-size: 90%;  
+  }
+
+  #emojiBox {
+    position: absolute;
+    width: 315.8px;
+    height: 250px;
+    margin-top: 3%;
+    margin-left: 18.5%;
+    background: linear-gradient(150deg, #ffea4b, #d9ff5b);
+    color: #fff;
+    border-radius: 30px;
+    z-index: 999;
+    display: none;
+  }
+
+  #emojiClip {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 5%;
+    background: rgb(255, 255, 93);
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    padding: 0 0px;
+    border: none;
+    width: 12%;
+    height: 15.5%;
+  }
+
+  #closetoolBox {
+    position: absolute;
+  }
+
+  #planetsboton {
+    position: absolute;
+    background-image: url("../Icons/IconoDePlanetas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 16%;
+    margin-top: 30%;
+    margin-left: 83.6%;
+    border: none;
+    border-radius: 10px;
+  }
+
+  #planetsboton span {
+    position: absolute;
+    top: 103.5%;
+    left: 3.1%;
+    color: white;
+    font-size: 70%;
+  }
+
+  #universeBox {
+    position: absolute;
+    width: 515.8px;
+    height: 317px;
+    margin-top: -1.63%;
+    margin-left: -1.6%;
+    min-height: 100vh;
+    justify-content: center;
+    text-align: center;
+    background: #000000;
+    color: #fff;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+  }
+
+  .planet {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .planet#textEarth {
+    color: #fff;
+    font-size: 4em;
+    margin-bottom: 40px;
+    font-weight: 600;
+  }
+
+  .planet .containerUniverse1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .planetEarth {
+    position: relative;
+    min-width: 50%;
+    height: 317px;
+    justify-content: center;
+    align-items: center;
+    background: #070d10;
+  }
+
+  .planetEarth .loaderearth {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+  }
+
+  .planetEarth .loaderearth::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(to top, transparent, rgba(0,255,249,0.4));
+    background-size: 200px 360px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  #cerrarextencion {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.321);
+    border: none;
+    color: white;
+    padding: 2px 6px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    margin-top: -2.3%;
+    margin-left: 92.8%;
+    border-radius: 50px;
+  }
+
+/**Copyright (c) 2023 DanDev*/

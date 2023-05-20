@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Menu</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <audio id="sound" src="../Sounds/ManzanaCayendoDeUnArbolSonido.mp3"></audio>
+  </head>
+  <body>
+    <script src="popup.js"></script>
+    <button id="botoninfo"><span>Information</span></button>
+    <button id="botonconfig"><span>Settings</span></button>
+    <button id="botoncalculadora"><span>Calculator</span></button>
+    <button id="botonconoceelmundo"><span>Know the land</span></button>
+    <button id="botonwebdestruirpanel"><span>Web destroyer panel</span></button>
+    <button id="botondecuidaalplaneta"><span>Helping the planet</span></button>
+    <button id="botonfoldergame"><span>Games</span></button>
+    <button id="clockboton"><span>Clock</span></button>
+    <button id="Toolsboton"><span>Tools</span></button>
+    <button id="planetsboton"><span>Explore the Universe</span></button>
+    <button id="abrirReadme"></button>
+    <div id="barradecorativa">
+      <button class="close-btn" id="cerrarextencion">X</button>
+      <p id="textodecotacion">🏡House🏡</p>
+    </div>
+    <div id="infoBox">
+      <button id="botoncerrarinfo"></button>
+      <h1 id="descripcion">¡Welcome!, This extension is like an extension that allows you to have more options and useful features of 🌍️🔍️Microsoft Edge🌍️🔍️. How emojis, information from your favorite website (news) and more.<br><br>📝NOTE: "Updates can last for months or even years, so keep an eye on our website: "your_page".<br><br>If you didn't read the rectangle to the right, then what it says is:<br><br>💬Available languages: US, es-MX, Italy, Portuguese and British English.</h1>
+      <h2 id="extensonautor">Made by Test Text</h2>
+    </div>
+    <div id="configBox">
+      <button id="botoncerrarconfig"></button>
+      <div class="menuLateral">
+        <h3 id="tituloconfig">Settings</h3>
+        <p id="opciondelenguaje">User</p>
+        <button id="option2">Language</button>
+      </div>
+    </div>
+    <div id="gamesBox">
+      <button id="cerrarcarpetadejuegos"></button>
+      <h4 id="subtituloseccion1"><span>Arcade</span></h4>
+      <button id="abrirclicksistemasolargame"><span>Solar Click</span></button>
+      <button id="abrirjuegosnake"><span>Snake</span></button>
+      <button id="abrirsimuladordetexto"><span>Text Simulator</span></button>
+    </div>
+    <div id="pantalladeljuegosistemsolarclick">
+      <button id="cerrarclicksistemasolargame"></button>
+      <div id="sunsolar">
+        <div id="contador">0</div>
+      </div>
+      <div id="tierraplanet">
+        <div id="moon"></div>
+      </div>
+    </div>
+    <div id="pantalladeljuegosnake">
+      <button id="cerrarjuegodelsanke"></button>
+      <div id="manzananormal"></div>
+      <p id="textoDelContador">Manzanas comidas por la serpiente: <span id="contadorManzanas">0</span></p>
+    </div>
+    <div id="textoBox">
+      <button id="closetextBox"></button>
+      <div class="escriturarectangulardetexto" contenteditable="true">
+        <h12 id="textodedecoracion">Escribe aquí...</h12>
+      </div>
+    </div>
+    <div id="calculatorBox">
+      <button id="cerrarcalculatorBox"></button>
+      <div class="calculator">
+        <input type="text" class="calculator-screen" value="" disabled />
+        <div class="calculator-keys">
+          <button type="button" class="operator" value="+">+</button>
+          <button type="button" class="operator" value="-">-</button>
+          <button type="button" class="operator" value="*">&times;</button>
+          <button type="button" class="operator" value="/">&divide;</button>
+          <button type="button" value="7">7</button>
+          <button type="button" value="8">8</button>
+          <button type="button" value="9">9</button>
+          <button type="button" value="4">4</button>
+          <button type="button" value="5">5</button>
+          <button type="button" value="6">6</button>
+          <button type="button" value="1">1</button>
+          <button type="button" value="2">2</button>
+          <button type="button" value="3">3</button>
+          <button type="button" value="0">0</button>
+          <button type="button" class="decimal" value=".">.</button>
+          <button type="button" class="all-clear" value="all-clear">AC</button>
+          <button type="button" class="equal-sign" value="=">=</button>
+        </div>
+      </div>
+    </div>    
+    <div id="rectangulodedecoracion">
+      <button id="motivacionaltext">∞</button>
+    </div>
+    <div id="systemExtencionBox">
+      <button id="cerrarSystemBoxExtencion"></button>
+      <h5 id="titulodeextencionBox">News</h5>
+      <div id="menuLateralDeLaExtencion">
+        <h6 id="titulodelasopcionesextencion">Menu</h6>
+        <h7 id="secciondelaExtencion1">News</h7>
+        <button id="secciondelaExtencion2">Apps</button>
+      </div>
+      <div id="noticasBox">
+        <div id="noticaBox">
+          <h8 id="subtituloNoticias">THE EXTENSION HAS ARRIVED!</h8>
+          <p id="infodelaNoticia">🌟The extension has arrived and it has necessary functions and other more secret things, maybe you can find out some secret functions.</p>
+          <p id="fechaDeLaNoticia">10/03/2025???</p>
+        </div>
+      </div>
+      <div id="appBox">
+        <h1 id="tituloApp">Apps</h1>
+        <button id="appMicrosoftEdge"><span>Custom Edge Connect</span></button>
+        <button id="appCustomEdge"><span>Extension Details</span></button>
+      </div>
+      <div id="DetailsBox">
+        <button id="closeDetailBox"></button>
+        <h1 class="detailTituloBox">Details</h1>
+        <div class="miniDetailBox">
+          <h2 class="subTituloMiniBox">Information</h2>
+          <h3 class="infoDetail">🌟 The extension is a powerful tool that gives you the ability to customize every aspect of your browsing experience in Microsoft Edge, the world-renowned web browser. With this extension, you will be able to take the configuration and appearance of your browser to the next level, creating an experience tailored to your preferences. ✨ Discover a wide range of customization options available in this extension, from powerful search tools 🔍 and optimization to maximize the efficiency and speed of your browser, to a complete set of advanced settings. You will have full control over plug-in management 🧩, privacy and security settings 🔒, smart cookie management 🍪 and much more.<br><br>This extension has been carefully designed to work optimally with Microsoft Edge, taking advantage of the its unique features and capabilities. 🌎 Experience seamless browser integration, allowing you to customize the user interface, keyboard shortcuts, and other key aspects to perfectly suit your needs and preferences. 🎨<br><br>As you explore advanced configuration options, you'll discover the ability to further optimize your browsing experience. Adjust the way elements are displayed on web pages, configure window and tab management for more efficient browsing, and organize your bookmarks and favorites in an intuitive and personalized way.<br><br>It is important to note that Due to the wide range of customizable options and features, this extension may require additional resources from your computer. While we've optimized its performance as much as possible, if your device doesn't have enough processing power 💻, you may notice a slight decrease in browsing speed. However, if you have a powerful computer 💪, you will be able to fully enjoy all the advantages and customizations that this extension offers, giving you a unique and unparalleled browsing experience in Microsoft Edge. 🚀</h3>
+        </div>
+        <h4 class="updateDatatext">???</h4>
+      </div>
+    </div>
+    <div id="readmeBox">
+      <h12 class="readmeTituloBox">📋Readme</h12>
+      <p class="infoReadme">Custom Microsoft Edge<br><br>Custom Microsoft Edge is a web browser extension that provides a variety of useful features to enhance your browsing experience.<br><br>Characteristics<br><br>1. Ad Blocker: The extension blocks annoying and annoying ads on web pages so you can browse without distraction.<br>2. Download Accelerator: The extension optimizes downloads to make them faster and more efficient.<br>3. Productivity Tools: The extension includes tools like a notepad, timer, and calculator to help you be more productive while browsing.<br>4. Personalization: The extension allows you to customize the appearance of your browser with custom themes and layout options.<br>5. Test Lab: We have a test lab where you can test new features before they are released to the general public. To access the test laboratory, visit our website "mypage" and look for the "Laboratory" option. Then click the "Join Waitlist" button to request an invitation. We will send you an email notifying you.</p>
+      <h13 class="licenceTituloBox">📑Licence</h13>
+      <p class="infoLicence">The license allows anyone to use, copy, modify, merge, publish, distribute, sublicense, and sell copies of the software, including any Microsoft Edge extensions developed and distributed by the author, free of charge.<br>The license requires that include the copyright notice and license on all copies or substantial portions of the extension.<br>The software and any Microsoft Edge extensions developed and distributed by the author are provided "as is" without warranties of any kind , and the authors shall not be liable for any claims, damages, or other liability arising from the use of the software or the extension.<br>The software and any Microsoft Edge extensions developed and distributed by the author may not be used for any illegal or activities, and the authors shall not be held responsible for any illegal use.<br>The license does not permit the sale or distribution of the software or the extension under any license other than the MIT License.<br>Any modifications to the extension made by the user or any third party is not the responsibility of the authors and is done at the user's risk.<br>The extension may contain third party software or components which are subject to their own licenses or terms, and the authors shall not be liable for any claim or liability arising from the use of such software or components.<br>The authors reserve the right to modify this license at any time without notice, and it is the user's responsibility to check regularly for updates.</p>
+       <h3 class="contributingTitle">🤝Contributing</h3>
+       <p class="infoContributing">These are the guidelines for contributing to the project:<br><br>1. If you find a problem in the code or have a suggestion to improve it, open an "Issue" in the repository with a detailed description of the problem or suggestion. Be sure to check that there is not an existing "Issue" for what you want to report before opening a new one.<br>2. If you want to contribute to the code, follow these steps:<br>- Make a "fork" of the repository.<br>- Create a new branch in your local repository to work on your contribution.<br>- Make your changes to that branch.<br>- Make a "Pull Request" with a detailed description of your changes and why you think they should be accepted.<br><br>3. To maintain code consistency, follow these guidelines:<br>- Uses the programming language in English.<br>- Use indentation with 4 spaces instead of tabs.<br>- Limit each line to 80 characters.<br>- Write descriptive comments for the most complex parts of the code.<br><br>4. This project has a code of conduct, make sure you read it and follow it at all times.<br><br>Thanks again for your interest in contributing, we look forward to your contributions!</p>
+      <button id="closeReadmeBox"></button>
+    </div>
+    <div id="conocetierraBox">
+      <h9 id="titulodelconocelatierra">Know the land</h9>
+      <p id="informaciondelatierra">Earth is the third closest planet to the Sun in our solar system and the only known planet in the universe to have life. It has a diameter of approximately 12,742 kilometers and a mass of 5.97 x 10^24 kg. Earth rotates on its axis once every 24 hours, producing the day-night cycle we experience on the surface. Earth is a rocky planet and is divided into three main layers: the crust, the mantle and core. The crust is the most superficial layer and is composed mainly of rocks and minerals. The mantle lies beneath the crust and is made up of hot, viscous, slowly flowing rock. The core is the deepest layer and is made up of molten iron and nickel.<br><br>Earth's atmosphere is made up of various gases, the most important being nitrogen (78%) and oxygen (21%) . The atmosphere also protects Earth from the Sun's harmful rays and helps maintain a temperature suitable for life on Earth.<br><br>Earth is home to a wide variety of life forms, including plants, animals and humans. Biodiversity on Earth is highly diverse, with millions of different species living in a wide range of habitats, from the deep oceans to the highest mountains.<br><br>Humans have inhabited the Earth for thousands of years and have had a significant impact on the environment. Human activity, such as deforestation, pollution, and climate change, have had a negative impact on Earth and its ecosystems. However, there are also ongoing efforts to protect and preserve Earth's environment and biodiversity for future generations.<br><br>Earth also has a fascinating history, dating back more than 4.5 billion years. years. Scientists have discovered fossils and other geological records that provide information about how Earth has evolved and changed over time. Earth has also been impacted by cataclysmic events, such as asteroid and comet impacts, which have had a significant effect on our planet's history.<br><br>In summary, Earth is a fascinating and complex planet that is home to a wide variety of life and has evolved and changed throughout its history. Despite the challenges and threats it faces, Earth remains a beautiful and unique place in the universe.</p>
+      <button id="cerrarinfotierra"></button>
+    </div>
+    <div id="paneldestructionBox">
+      <h10 id="titulodelpaneldestroyer">Website destruction panel</h10>
+      <button id="cerrarpaneldestrction"></button>
+    </div>
+    <div id="planetsavetreeBox">
+      <button id="cerraraplanetsaveBox"></button>
+      <h11 id="tituloprincipaldelplansave">Together we can help the planet</h11>
+      <p id="infodelsalvaellaneta">We already have to do something to help the planet. The easiest way is not to litter, not to waste resources, not to pollute, among others, but you can help even more to avoid pollution and destruction, just donate the amount of money you want because with the money we get we will clean up the trash and more.</p>
+    </div>
+    <div id="clockBox">
+      <button id="closeclockBox"></button>
+      <div class="clock">
+        <div class="number">
+          <span style="--i:0;"><b>12</b></span>
+          <span style="--i:1;"><b>3</b></span>
+          <span style="--i:2;"><b>6</b></span>
+          <span style="--i:3;"><b>9</b></span>
+          <div class="circle" id="hr"><i></i></div>
+          <div class="circle" id="mn"><i></i></div>
+          <div class="circle" id="sc"><i></i></div>
+        </div>
+      </div>
+    </div>
+    <div id="toolsBox">
+      <button id="openemoji"><span>Emojis</span></button>
+      <button id="closetoolBox"></button>
+    </div>
+    <div id="emojiBox">
+      <button id="emojiClip">📎</button>
+    </div>
+    <div id="universeBox">
+      <div class="planet planetEarth"></div>
+      <h1 id="textEarth">Earth</h1>
+      <div class="containerUniverse1">
+        <div class="loaderearth"></div>
+        <div class="earth"></div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- *Copyright (c) 2023 DanDev -->
