@@ -1,42 +1,5 @@
 # Custom Microsoft Edge
 
-Custom Microsoft Edge es una extensión para el navegador web que proporciona una variedad de características útiles para mejorar tu experiencia de navegación.
-
-## Características
-
-1. Bloqueador de anuncios: la extensión bloquea anuncios molestos y molestos en páginas web para que puedas navegar sin distracciones.
-2. Acelerador de descarga: la extensión optimiza las descargas para que sean más rápidas y eficientes.
-3. Herramientas de productividad: la extensión incluye herramientas como un bloc de notas, un temporizador y una calculadora para ayudarte a ser más productivo mientras navegas.
-4. Personalización: la extensión te permite personalizar la apariencia de tu navegador con temas y opciones de diseño personalizados.
-5. Laboratorio de pruebas: tenemos un laboratorio de pruebas donde puedes probar nuevas características antes de que se lancen al público en general. Para acceder al laboratorio de pruebas, visita nuestra página web "mipagina" y busca la opción "Laboratorio". Luego, haz clic en el botón "Únete a la lista de espera" para solicitar una invitación. Te enviaremos un email avisándote.
-
-## Instalación
-
-Para instalar la extensión, sigue estos pasos:
-
-Descarga la extensión desde la tienda de extensiones de tu navegador web.
-Haz clic en el botón "Agregar" o "Instalar" para agregar la extensión a tu navegador.
-Reinicia tu navegador web si es necesario.
-
-## Contribución
-
-Nos encanta recibir contribuciones de la comunidad. Si te gustaría contribuir a la extensión, por favor sigue estos pasos:
-
-Haz un fork de nuestro repositorio en GitHub.
-Crea una rama para tu contribución.
-Realiza los cambios en tu rama.
-Envía una solicitud de extracción a nuestro repositorio.
-
-## Licencia
-
-La extensión está disponible bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más información.
-
-## Contacto
-
-Si tienes preguntas, comentarios o problemas con la extensión, por favor ponte en contacto con nosotros a través de nuestro correo electrónico o redes sociales.
-
-## Custom Microsoft Edgea
-
 Custom Microsoft Edge is a web browser extension that provides a variety of useful features to enhance your browsing experience.
 
 ## Characteristics
