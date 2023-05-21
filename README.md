@@ -18,4 +18,4 @@ GitHub: [DanDevCode](https://github.com/DanDevCode).
 
 ## Others
 
-![Oops, it seems that the star counter is not working well.](https://img.shields.io/github/discussions/DanDevCode/Edge-Custom-Extension-Code?color=blue&label=Discussions)
+![Oops, it seems that the star counter is not working well.](https://img.shields.io/github/discussions/DanDevCode/Edge-Custom-Extension-Code?color=blue&label=Discussions) ![Oops, it seems that the star counter is not working well.](https://img.shields.io/github/manifest-json/v/DanDevCode/Edge-Custom-Extension-Code?label=Version)
