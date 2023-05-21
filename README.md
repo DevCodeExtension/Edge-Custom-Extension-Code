@@ -12,4 +12,4 @@ What the extension does is help you more in the Microsoft Edge browser by giving
 
 ## Follow me on GitHub 😘
 
-GitHub: [DanDevCode](https://github.com/DanDevCode).
+>GitHub: **[DanDevCode](https://github.com/DanDevCode)**.
