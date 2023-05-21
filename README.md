@@ -15,3 +15,7 @@ What the extension does is help you more in the Microsoft Edge browser by giving
 ## Follow me on GitHub 😘
 
 GitHub: [DanDevCode](https://github.com/DanDevCode).
+
+## Others
+
+https://img.shields.io/github/discussions/DanDevCode/Edge-Custom-Extension-Code?color=blue&label=Discussions
