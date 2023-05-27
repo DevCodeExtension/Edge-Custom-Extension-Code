@@ -8,7 +8,7 @@ The project of an extension requires a lot of effort, the project consists of 3 
 
 3. Games! 🎮
 
-![Oops, the image could not be loaded correctly.](https://github.com/DanDevCode/DanDevCode/blob/main/ImageDemostraci%C3%B3n.jpg)
+![Oops, the image could not be loaded correctly.](https://github.com/DanDevCode/DanDevCode/blob/main/Images/Extension%20Image.jpg)
 
 What the extension does is help you more in the Microsoft Edge browser by giving you a website, but without ads, in addition to entertaining, it has other functions such as EXPLORE SPACE!, donate to take care of the planet and other things, also secret functions. 😄
 
